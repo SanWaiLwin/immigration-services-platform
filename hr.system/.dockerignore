@@ -1,0 +1,8 @@
+# Reduce Docker build context
+# Ignore build outputs and VCS directories
+
+target/
+.git/
+*.log
+results.csv
+.env

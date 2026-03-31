@@ -1,0 +1,5 @@
+"Benchmark","Mode","Threads","Samples","Score","Score Error (99.9%)","Unit"
+"com.swl.hr.system.benchmark.JobDataQueryStrategyBenchmark.jdbc_query_by_title_sorted","avgt",1,5,1.567934,1.289872,"ms/op"
+"com.swl.hr.system.benchmark.JobDataQueryStrategyBenchmark.jdbc_query_salary_range_desc","avgt",1,5,0.091679,0.007355,"ms/op"
+"com.swl.hr.system.benchmark.JobDataQueryStrategyBenchmark.jpa_query_by_title_sorted","avgt",1,5,6.071429,28.036442,"ms/op"
+"com.swl.hr.system.benchmark.JobDataQueryStrategyBenchmark.jpa_query_salary_range_desc","avgt",1,5,0.099055,0.007400,"ms/op"

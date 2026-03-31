@@ -1,0 +1,70 @@
+# Ignore general IDE files
+
+### Eclipse ###
+.project
+.classpath
+.settings/
+*.launch
+# Ignore Eclipse specific metadata and build folders
+*.tmp
+*.bak
+# Eclipse Core Plugins
+.metadata/.plugins/org.eclipse.core.resources/.projects
+.eclipse/
+build/
+target/
+!.mvn/wrapper/maven-wrapper.jar
+
+# Ignore the target directory inside src/test and src/main
+!**/src/main/**/target/
+!**/src/test/**/target/
+# Ignore any Maven build directories (general)
+**/target/
+**/build/
+
+### IntelliJ IDEA ###
+.idea/
+*.iws
+*.iml
+*.ipr
+
+### VS Code ###
+.vscode/
+
+### NetBeans ###
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+build/
+!**/src/main/**/build/
+!**/src/test/**/build/
+
+### Spring-related files ###
+**/*.log
+**/*.properties
+
+### Misc ###
+*.swp
+*.swo
+*~
+
+# Build and generated artifacts
+dependency-reduced-pom.xml
+effective-pom.xml
+effective-pom 
+
+# Ensure important Spring config properties are tracked
+!src/main/resources/application.properties
+!src/main/resources/application-dev.properties
+!src/main/resources/application-prod.properties
+
+# OS-specific files
+Thumbs.db
+.DS_Store
+
+# Environment files (do not commit secrets)
+.env
+.env.*
+*.env

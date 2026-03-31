@@ -1,0 +1,12 @@
+{
+  "data": {
+    "jobTitle": "Software Engineer",
+    "gender": "Male",
+    "fromSalary": 60000,
+    "toSalary": 120000,
+    "sort": "salary",
+    "sortType": "ASC",
+    "page": 0,
+    "size": 100
+  }
+}
